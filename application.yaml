@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      DefaultZone: http://localhost:8761/
+    register-with-eureka: true
+    fetch-registry: true
