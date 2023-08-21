@@ -1,3 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/boris_db
+    username: postgres
+    password: postgres
 eureka:
   client:
     service-url:
@@ -6,3 +11,4 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
+    
